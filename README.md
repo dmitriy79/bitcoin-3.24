@@ -10,6 +10,8 @@ cd bitcoin-0.3.24/src/
 Run the makefile:
 
 make -f makefile.unix all
+make -f makefile.unix USE_UPNP=
+make -f makefile.unix USE_UPNP=-
 
 
 Feature branches are created when there are major new features being worked on by several people.
