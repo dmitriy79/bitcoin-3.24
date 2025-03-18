@@ -10,7 +10,9 @@ cd bitcoin-0.3.24/src/
 Run the makefile:
 
 make -f makefile.unix all
+
 make -f makefile.unix USE_UPNP=
+
 make -f makefile.unix USE_UPNP=-
 
 
